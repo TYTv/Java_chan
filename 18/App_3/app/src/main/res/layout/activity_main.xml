@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.student.app_3.MainActivity">
+
+    <LinearLayout
+        android:layout_width="369dp"
+        android:layout_height="497dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="7dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="尺(29元)" />
+
+            <EditText
+                android:id="@+id/editTextRuler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="筆(31元)" />
+
+            <EditText
+                android:id="@+id/editTextPan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.70"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="加購商品" />
+
+            <LinearLayout
+                android:layout_width="261dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.10"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/checkBoxPaper"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="紙(3份30元)" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxCompasses"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="圓規(3支30元)" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxNote"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="筆記本(3本60元)" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonCal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickCal"
+            android:text="計算" />
+
+        <TextView
+            android:id="@+id/textViewAns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.18"
+            android:text="$"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickNext"
+            android:text="Next" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

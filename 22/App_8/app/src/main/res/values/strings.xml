@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">App_8</string>
+    <string-array name="valstr">
+        <item>尺</item>
+        <item>筆</item>
+        <item>書</item>
+        <item>圓規</item>
+        <item>紙</item>
+        <item>印台</item>
+    </string-array>
+</resources>

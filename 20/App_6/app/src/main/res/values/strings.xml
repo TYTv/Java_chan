@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">App_6</string>
+    <string name="Title_1">比賽項目</string>
+    <string name="T1_1">足球</string>
+    <string name="T1_2">棒球</string>
+    <string name="Title_2">身分別</string>
+    <string name="T2_1">男(Man)</string>
+    <string name="T2_2">女(Woman)</string>
+</resources>

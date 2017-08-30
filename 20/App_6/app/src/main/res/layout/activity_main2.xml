@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.student.app_6.Main2Activity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/buttonP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="上一頁" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Title_2" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="104dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonMan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/T2_1" />
+
+            <RadioButton
+                android:id="@+id/radioButtonWoman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/T2_2" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonP2OK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OK" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">App_7</string>
+    <string-array name="strarr">
+        <item>金融業</item>
+        <item>服務業</item>
+        <item>資訊業</item>
+    </string-array>
+</resources>
